@@ -1,0 +1,5 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - geerlingguy.repo-epel
+    - geerlingguy.clamav
